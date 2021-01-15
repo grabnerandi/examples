@@ -29,3 +29,5 @@ keptn add-resource --project=$PROJECT --service=$SERVICE --stage=$STAGE --resour
 keptn add-resource --project=$PROJECT --service=$SERVICE --stage=$STAGE --resource=dynatrace/dynatrace.conf.yaml --resourceUri=dynatrace/dynatrace.conf.yaml
 keptn add-resource --project=$PROJECT --service=$SERVICE --stage=$STAGE --resource=dynatrace/sli_$SLI_VERSION.yaml --resourceUri=dynatrace/sli.yaml
 keptn add-resource --project=$PROJECT --service=$SERVICE --stage=$STAGE --resource=slo_$SLI_VERSION.yaml --resourceUri=slo.yaml
+
+keptn add-resource --project=$PROJECT --service=$SERVICE --stage=$STAGE --resource=remediation.yaml --resourceUri=remediation.yaml
